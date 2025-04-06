@@ -30,29 +30,7 @@ let lisOfItems = [];
 
             let temp = document.createElement('li');
             temp.innerHTML = `${pronoun[i]}${adjective[j]}${noun[n]}${extension[x]}`;
-            listElements.appendChild(temp);
-
-            // add a condition that checks for the last three chararcters
-            //if they are {"com"}, add a dot before it, capcom => cap.com
-            if (noun[n].endsWith('com')){
-
-              
-              //capcom => cap.com
-              result = .com
-
-              //make a new variable
-
-              d = result
-            
-              //append the firts part of the word
-              
-              //append a period
-              //append 'com'
-              //assign it to the console.log
-            
-
-              //
-            }           
+            listElements.appendChild(temp);   
               console.log(pronoun[i] + adjective[j] + noun[n] + extension[x]);
             }
           }
